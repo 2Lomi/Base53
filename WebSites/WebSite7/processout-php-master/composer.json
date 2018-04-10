@@ -1,0 +1,27 @@
+{
+  "name": "processout/processout-php",
+  "description": "ProcessOut API bindings.",
+  "keywords": [
+    "processout",
+    "api",
+    "bindings"
+  ],
+  "homepage": "https://www.processout.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ProcessOut",
+      "homepage": "https://www.processout.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+		"ProcessOut\\": "src/"
+	}
+  }
+}

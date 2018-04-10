@@ -1,0 +1,71 @@
+﻿/* font settings for main title header*/
+.top-titlelink {
+    font-family: Impact;
+    font-size: 45px;
+    
+    background-image: url("bg_logo.png");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.77);
+    -webkit-text-stroke-width: 1.8px;
+    /*
+        background: -webkit-linear-gradient(to bottom, rgba(1,0,0,1),  rgb(255, 255, 255, 0));
+        background: linear-gradient(to bottom, rgba(1,0,0,1),  rgb(255, 255, 255, 0));
+    */
+}
+
+.head-link-font-settings {
+    
+    font-family: Impact;
+    font-size: 35px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(to bottom, rgba(1,0,0,0), rgb(255, 255, 255, 1));
+    background: linear-gradient(to bottom, rgba(1,0,0,0), rgb(255, 255, 255, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.77);
+    -webkit-text-stroke-width: 0.4px;
+}
+
+.head-link-right {
+    position:relative;
+    float:initial;
+    padding-left : 50px;
+}
+
+.head-link-left{
+   
+    position:relative;
+    float:initial;
+    padding-right : 50px;
+    
+}
+
+#masthead-center{
+    text-align:center;
+}
+/* used to stuck the header to the top of the page*/
+#masthead-positioner {
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 199999;
+}
+
+ /* padding + border to the header*/
+#masthead-padding {
+    background-color:floralwhite;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 8px;
+    padding-top: 7px;
+}
+
+
+
+#offset-headtobody{
+    height: 70px;
+}
+
